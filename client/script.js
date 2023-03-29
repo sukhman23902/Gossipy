@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // now start fetching the data from the response of api
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://gossipy.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
